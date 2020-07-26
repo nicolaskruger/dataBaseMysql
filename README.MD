@@ -3,4 +3,4 @@
 
 <h3>livraria</h3>
 
-<img src="./diagram/Livrodiagrama">
+<img src="./diagram/Livrodiagrama.bmp">
