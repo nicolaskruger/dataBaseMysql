@@ -4,3 +4,13 @@
 <h3>livraria</h3>
 
 <img src="./diagram/bibliotecaD.bmp">
+
+<h3>empresa</h3>
+
+<img src="./diagram/empresaD.png">
+
+<h3>banco</h3>
+
+<img src="./diagram/bancoD.png">
+
+
