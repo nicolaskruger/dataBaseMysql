@@ -1,0 +1,117 @@
+-- MySQL dump 10.13  Distrib 8.0.21, for Linux (x86_64)
+--
+-- Host: 127.0.0.1    Database: banco
+-- ------------------------------------------------------
+-- Server version	8.0.21
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `agencia`
+--
+
+LOCK TABLES `agencia` WRITE;
+/*!40000 ALTER TABLE `agencia` DISABLE KEYS */;
+/*!40000 ALTER TABLE `agencia` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `banco`
+--
+
+LOCK TABLES `banco` WRITE;
+/*!40000 ALTER TABLE `banco` DISABLE KEYS */;
+/*!40000 ALTER TABLE `banco` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `cliente`
+--
+
+LOCK TABLES `cliente` WRITE;
+/*!40000 ALTER TABLE `cliente` DISABLE KEYS */;
+/*!40000 ALTER TABLE `cliente` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `conta`
+--
+
+LOCK TABLES `conta` WRITE;
+/*!40000 ALTER TABLE `conta` DISABLE KEYS */;
+/*!40000 ALTER TABLE `conta` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `empresta`
+--
+
+LOCK TABLES `empresta` WRITE;
+/*!40000 ALTER TABLE `empresta` DISABLE KEYS */;
+/*!40000 ALTER TABLE `empresta` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `emprestimo`
+--
+
+LOCK TABLES `emprestimo` WRITE;
+/*!40000 ALTER TABLE `emprestimo` DISABLE KEYS */;
+/*!40000 ALTER TABLE `emprestimo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `possui`
+--
+
+LOCK TABLES `possui` WRITE;
+/*!40000 ALTER TABLE `possui` DISABLE KEYS */;
+/*!40000 ALTER TABLE `possui` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `realiza`
+--
+
+LOCK TABLES `realiza` WRITE;
+/*!40000 ALTER TABLE `realiza` DISABLE KEYS */;
+/*!40000 ALTER TABLE `realiza` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `registra`
+--
+
+LOCK TABLES `registra` WRITE;
+/*!40000 ALTER TABLE `registra` DISABLE KEYS */;
+/*!40000 ALTER TABLE `registra` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `tem`
+--
+
+LOCK TABLES `tem` WRITE;
+/*!40000 ALTER TABLE `tem` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tem` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-07-27 14:50:40
