@@ -52,15 +52,6 @@ LOCK TABLES `conta` WRITE;
 UNLOCK TABLES;
 
 --
--- Dumping data for table `empresta`
---
-
-LOCK TABLES `empresta` WRITE;
-/*!40000 ALTER TABLE `empresta` DISABLE KEYS */;
-/*!40000 ALTER TABLE `empresta` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Dumping data for table `emprestimo`
 --
 
@@ -70,30 +61,12 @@ LOCK TABLES `emprestimo` WRITE;
 UNLOCK TABLES;
 
 --
--- Dumping data for table `possui`
---
-
-LOCK TABLES `possui` WRITE;
-/*!40000 ALTER TABLE `possui` DISABLE KEYS */;
-/*!40000 ALTER TABLE `possui` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Dumping data for table `realiza`
 --
 
 LOCK TABLES `realiza` WRITE;
 /*!40000 ALTER TABLE `realiza` DISABLE KEYS */;
 /*!40000 ALTER TABLE `realiza` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Dumping data for table `registra`
---
-
-LOCK TABLES `registra` WRITE;
-/*!40000 ALTER TABLE `registra` DISABLE KEYS */;
-/*!40000 ALTER TABLE `registra` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -114,4 +87,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-07-27 14:50:40
+-- Dump completed on 2020-07-31 14:07:54
